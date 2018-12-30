@@ -54,6 +54,13 @@ ul {
     padding-left: 0;
 }
 
+ul.list li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px;
+    text-align: left;
+}
+
 .bg-primary {
     background-color: @theme-primary;
 
@@ -501,95 +508,6 @@ body {
     font-size: 12px;
 }
 
-.buy-ticket-info {
-    display: none;
-    width: 365px;
-    max-width: 100%;
-    margin: 15px auto 0;
-    background: @theme-primary;
-    border-radius: 3px;
-    .sans-serif-font;
-    padding: 12px 0;
-    position: relative;
-
-    // Arrow
-    &:after {
-        bottom: 100%;
-        left: 50%;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
-        border-color: rgba(240, 95, 64, 0);
-        border-bottom-color: #F05F40;
-        border-width: 14px;
-        margin-left: -14px;
-    }
-
-    a {
-        color: #fff;
-        font-weight: bold;
-    }
-
-    // Link
-    .btn {
-        color: @theme-primary;
-        background: #fff;
-        border-radius: 5px;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-    // STEPS
-    .step {
-        height: 130px;
-        display: none;
-        &.first-step { display: block; }
-        //&.loading { display: block; }
-        //&.last-step { display: block; }
-
-        &.loading {
-            background: url(../img/ajax-loader.gif) no-repeat center center;
-        }
-
-        &.last-step {
-
-            &:before {
-                content: "\f00d";
-                font-family: 'FontAwesome';
-                font-size: 40px;
-                display: block;
-            }
-
-            &.success:before {
-                content: "\f00c";
-            }
-        }
-    }
-}
-
-// FORM
-input {
-    padding: 8px 14px;
-    .sans-serif-font;
-    border: none;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    color: #444;
-
-    &:focus {
-        border: none;
-    }
-
-    &#email { width: 90%;  }
-    &#name { width: 52%; margin-right: 5%; }
-    &#amount { width: 17%; margin-right: 2%; }
-}
-
-label { width: 44px; }
-
 .clear { display: block; clear: both; }
 
 // Used as block description
@@ -612,6 +530,15 @@ label { width: 44px; }
     &.little {
         font-size: 12px;
     }
+}
+
+// Diversity
+#diversity {
+    ul.list li {
+        text-align: center;
+        list-style-position: inside;
+    }
+
 }
 
 // Cards against humanity
