@@ -1,3 +1,4 @@
 TODO
 =========================
-- Añadir TripAdvisor del Castillo
+- Finalizar responsiveness
+- Accessibility - Skip to content, alt images, external links
