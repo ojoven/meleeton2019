@@ -219,7 +219,7 @@ header {
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(0,0,0,0.4);
+        background: rgba(0,0,0,0.6);
     }
 
     .header-content {
@@ -228,12 +228,15 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+
             .supraHeading {
                 .sans-serif-font;
                 font-size: 20px;
                 margin-bottom: 20px;
+
                 .supra {
-                    font-size: 20px;
+                    font-size: 16px;
+                    color: #eee;
                     display: block;
                 }
                 .infra {
@@ -253,7 +256,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
+                color: #eee;
                 font-size: 16px;
                 margin-bottom: 30px;
             }
@@ -268,6 +271,7 @@ header {
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             padding: 0 50px;
+
             .header-content-inner {
                 max-width: 1000px;
                 margin-left: auto;
@@ -543,6 +547,7 @@ body {
 
 // Gender selection
 .gender-selection {
+    .sans-serif-font;
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -552,17 +557,18 @@ body {
     }
 
     p {
-        margin: 0 !important;
+        margin: 10px 0 0 !important;
         font-size: 14px;
     }
 
     p.little {
-        color: #ccc;
+        color: #eee;
         font-size: 12px;
+        line-height: 1;
     }
 
     a {
-        color: #ccc;
+        color: #eee;
         text-decoration: underline;
     }
 }
