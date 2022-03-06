@@ -8,7 +8,10 @@ From April 26nd to 28th in Grisel's castle, in Spain.
 Video Resume
 =============================================
 (the song was one of the projects of the weekend)
-<video src='https://github.com/ojoven/meleeton2019/blob/master/video/meleeton2019.mp4?raw=true' width=1080/>
+
+<video width="1280" height="720" controls>
+  <source src="/video/meleeton2019.mp4" type="video/mp4">
+</video>
 
 #meleeton2019 in Twitter
 =============================================
