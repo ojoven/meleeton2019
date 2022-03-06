@@ -9,7 +9,7 @@ Video Resume
 =============================================
 (the song was one of the projects of the weekend)
 
-https://github.com/ojoven/meleeton2019/raw/master/video/meleeton2019.mp4
+https://user-images.githubusercontent.com/772734/156933298-5d6a363e-554b-4ab2-b462-713314ad23e3.mp4
 
 #meleeton2019 in Twitter
 =============================================
