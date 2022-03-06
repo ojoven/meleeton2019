@@ -9,9 +9,7 @@ Video Resume
 =============================================
 (the song was one of the projects of the weekend)
 
-<video width="1280" height="720" controls>
-  <source src="/video/meleeton2019.mp4" type="video/mp4">
-</video>
+https://github.com/ojoven/meleeton2019/raw/master/video/meleeton2019.mp4
 
 #meleeton2019 in Twitter
 =============================================
